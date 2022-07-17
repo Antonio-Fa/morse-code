@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Morse Translator</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <header>
+            <h2>Morse Code Translator</h2>
+        </header>
+        <div class="display">
+            <p class="display__input" id="translationUpperDisplay"></p>
+
+            <p class="display__output" id="translationLowerDisplay"></p>
+        </div>
+        <div class="inputs">
+            <textarea
+                class="inputs__text-field"
+                id="userInput"
+                value=""
+                placeholder="Place English or Morse here. Morse words should be seperated by '[space][/][space]' (Ignoring square brackets)"
+            ></textarea>
+            <button class="inputs__btn" id="getTranslation">Translate</button>
+        </div>
+    </body>
+    <script src="./javascript.js"></script>
+</html>
